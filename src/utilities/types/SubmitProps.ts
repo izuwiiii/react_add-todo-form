@@ -1,4 +1,4 @@
-import { Todo } from "./Todo";
+import { Todo } from './Todo';
 
 export type SubmitProps = {
   setId: React.Dispatch<React.SetStateAction<number>>;

@@ -1,5 +1,5 @@
-import { Todo } from "./Todo"
+import { Todo } from './Todo';
 
 export type TodoProps = {
-  todo: Todo
-}
+  todo: Todo;
+};

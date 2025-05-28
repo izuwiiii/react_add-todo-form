@@ -17,7 +17,7 @@ const mappedTodos: Todo[] = todosFromServer.map(todo => {
 
 export const App: React.FC = () => {
   const [todos, setTodos] = useState(mappedTodos);
-  const ids = todos.map(todo => todo.id)
+  const ids = todos.map(todo => todo.id);
 
   const [showErrorTitle, setShowErrorTitle] = useState(false);
   const [showErrorUser, setShowErrorUser] = useState(false);
@@ -62,9 +62,9 @@ export const App: React.FC = () => {
             <option value="" disabled>
               Choose a user
             </option>
-            {usersFromServer.map(user => (
-              <option key={user.id} value={user.id}>
-                {user.name}
+            {usersFromServer.map(us => (
+              <option key={us.id} value={us.id}>
+                {us.name}
               </option>
             ))}
           </select>

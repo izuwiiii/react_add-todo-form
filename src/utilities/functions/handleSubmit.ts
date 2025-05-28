@@ -25,6 +25,7 @@ export function handleSubmit({
   if (!title) {
     setShowErrorTitle(true);
   }
+
   if (user === 0) {
     setShowErrorUser(true);
   }
