@@ -1,6 +1,7 @@
 import { SubmitProps } from '../../utilities/types/SubmitProps';
-import { Todo } from '../types/Todo';
 import usersFromServer from '../../api/users';
+
+import { Todo } from '../types/Todo';
 
 export function handleSubmit({
   setId,
